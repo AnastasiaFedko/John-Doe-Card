@@ -7,6 +7,7 @@
 body{
     background-color: #eeeeee;
 }
+
 #userCard{
     margin: auto;
     background-color: #ffffff;
@@ -21,6 +22,7 @@ body{
     top: 30px;
     font-family:  "Poppins", sans-serif;
 }
+
 #photoSlide > img{   
     border-radius: 50%;    
     position: absolute;
@@ -28,7 +30,9 @@ body{
     left: 80px;
     width: 140px;
     height: 140px;   
+    object-fit: cover;
 }
+
 #photoSlide{
     margin: auto;
     width: 100%;
