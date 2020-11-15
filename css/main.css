@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeeeee;
+}
+#userCard{
+    margin: auto;
+    background-color: #ffffff;
+    min-width: 250px;
+    max-width: 400px;
+    width: 300px;
+    height: 400px;
+    border-radius: 2px;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+    font-family:  "Poppins", sans-serif;
+}
+#photoSlide > img{   
+    border-radius: 50%;    
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    width: 140px;
+    height: 140px;   
+}
+#photoSlide{
+    margin: auto;
+    width: 100%;
+    height: 190px;
+}
+
+#userInfoSlide > p{
+    text-align: center;   
+}
+#name{
+    font-size: 17px;
+}
+#job{
+    color: #99abb4;
+    font-size: 13px;
+}
+hr{
+    border: none;   
+    background: #e5e5e5;    
+    height: 1px;            
+    width: 100%;      
+}
+.contacts > h5 {
+    color: #99abb4;
+    font-size: 10px;
+    font-weight: normal;
+}
+#contactsSlide{
+    margin:  30px 15px  0 15px;
+}
+.contacts > p {
+    font-size: 12px;
+}
+.contacts{
+    margin: 14px 0;
+    display: block;
+}
+
